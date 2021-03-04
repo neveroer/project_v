@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":"oGAAA,a","file":"static/js/main.1c16a3ec.chunk.js","sourcesContent":["import 'modern-normalize/modern-normalize.css';\n\n// ReactDOM.render(\n//   <React.StrictMode>\n//     <App />\n//   </React.StrictMode>,\n//   document.getElementById(\"root\")\n// );\n"],"sourceRoot":""}

@@ -1,0 +1,158 @@
+:root {
+  --accent-color: #212121;
+  --main-color: #fffcee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--accent-color);
+}
+
+.wrapper {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding: 30px 10px;
+}
+
+.container:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 10px;
+  width: 100px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: var(--main-color);
+  background-color: var(--accent-color);
+  border: 1px solid var(--main-color);
+}
+
+.button:hover {
+  background-color: var(--main-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.block {
+  display: block;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.input {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid var(--accent-color);
+}
+
+/* header */
+
+header {
+  background-color: var(--accent-color);
+}
+
+.title {
+  color: var(--main-color);
+  padding: 10px;
+}
+
+/* aside */
+
+.aside {
+  width: 300px;
+  height: 100vh;
+  background-color: var(--accent-color);
+}
+
+.aside-title {
+  color: var(--main-color);
+  margin-bottom: 25px;
+}
+
+.aside-text {
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+.aside-button {
+  background-color: var(--main-color);
+  color: var(--accent-color);
+}
+
+.aside-button:hover {
+  color: var(--main-color);
+  background-color: var(--accent-color);
+  border: 1px solid var(--main-color);
+}
+
+.aside-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+/* main */
+
+.main-info {
+  display: flex;
+}
+
+.main-title {
+  margin-bottom: 25px;
+}
+
+.sending-form {
+  padding-bottom: 60px;
+}
+
+.mint {
+  padding-top: 30px;
+  border-top: 1px solid var(--accent-color);
+}
+
+.balance {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.balance-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.balance-span {
+  margin-left: 10px;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.your-address {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.copy {
+  display: block;
+  width: 30px;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
